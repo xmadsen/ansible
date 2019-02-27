@@ -131,7 +131,8 @@ from ansible.module_utils.redfish_utils import RedfishUtils
 CATEGORY_COMMANDS_ALL = {
     "Systems": ["GetSystemInventory", "GetPsuInventory", "GetCpuInventory",
                 "GetNicInventory", "GetStorageControllerInventory",
-                "GetDiskInventory", "GetBiosAttributes", "GetBootOrder"],
+                "GetDiskInventory", "GetBiosAttributes", "GetBootOrder",
+                "GetVolumeInventory"],
     "Chassis": ["GetFanInventory"],
     "Accounts": ["ListUsers"],
     "Update": ["GetFirmwareInventory"],
