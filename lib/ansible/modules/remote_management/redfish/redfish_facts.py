@@ -221,6 +221,8 @@ def main():
                     result["storage_controller"] = rf_utils.get_storage_controller_inventory()
                 elif command == "GetDiskInventory":
                     result["disk"] = rf_utils.get_disk_inventory()
+                elif command == "GetVolumeInventory":
+                    result["volume"] = rf_utils.get_volume_inventory()
                 elif command == "GetBiosAttributes":
                     result["bios_attribute"] = rf_utils.get_bios_attributes()
                 elif command == "GetBootOrder":
